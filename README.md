@@ -35,8 +35,8 @@ On affichera également les informations sur un film si l'utilisateur clique des
 
 ## Live Site et Screenshot
 
-[Clique ici pour voir le site !](https://trusting-curie-4e7643.netlify.app/)
-[![Screenshot](./screenshot.png)](https://trusting-curie-4e7643.netlify.app/)
+[Clique ici pour voir le site !](https://beygs.github.io/FLIMS_A_GOGO_REFACTO)
+[![Screenshot](./screenshot.png)](https://beygs.github.io/FLIMS_A_GOGO_REFACTO)
 
 ## Features
 
