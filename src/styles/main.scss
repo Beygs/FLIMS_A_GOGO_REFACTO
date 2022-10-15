@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+@import "./base/reset";
+
+@import "./abstracts/variables";
+
+@import "./base/base";
+@import "./layout/modal";
+@import "./layout/search";
+@import "./layout/movies";
+@import "./components/arrow_up";

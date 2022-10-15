@@ -1,0 +1,57 @@
+section.movies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .movie {
+    display: flex;
+    margin: 2rem;
+    width: 50%;
+    transform: translateX(25%);
+    opacity: 0;
+    transition: all .5s ease;
+
+    &.visible {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    
+    &__infos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 2rem;
+    }
+
+    &__title {
+      margin-bottom: 1.5rem;
+      color: $orange;
+    }
+
+    &__type {
+      color: $yellow;
+    }
+
+    &__year {
+      color: $green;
+    }
+
+    &__more {
+      line-height: initial;
+      margin-top: 2rem;
+      padding: 1em;
+      background-color: $orange;
+      border-radius: 2rem;
+      box-shadow: -3px -3px 0 $blue;
+      color: white;
+      cursor: pointer;
+      width: fit-content;
+      border: none;
+
+      &:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: -1px -1px 0 $blue;
+      }
+    }
+  }
+}
